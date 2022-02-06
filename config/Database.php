@@ -6,10 +6,10 @@
 
 class Database {
 
-    private $dbhost = "192.168.0.2";
-    private $dbusername = "iboydev";
-    private $dbpassword = "P@554mysql";
-    private $dbname = "db_tes"; 
+    private $dbhost = "";
+    private $dbusername = "";
+    private $dbpassword = "";
+    private $dbname = ""; 
     // private $dbhost = null;
     // private $dbusername = null;
     // private $dbpassword = null;
