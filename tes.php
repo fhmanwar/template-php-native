@@ -2,10 +2,8 @@
 include 'config/Library.php';
 include 'config/Database.php';
 // include 'config/App.php';
-include 'algorithm/BoyerMoore.php';
 
 use Config\Library;
-use Algorithm\Search as BM;
 use App\DotEnv;
 
 $hash = '$argon2id$v=19$m=65536,t=4,p=1$S1NyM2M0bDgxckJPY2o5SA$ffeGfSwmqjOqy1CnNft4WGignt1zJznI5/5G5BP/9VQ';
@@ -26,7 +24,7 @@ $pattern = 'tes';
 // $text = 'dfxxiaofangdfere';
 // $pattern = 'xiaofang';
 
-echo 'Find it , the position is '.BM::BoyerMoore($text, $pattern);
+// echo 'Find it , the position is '.BM::BoyerMoore($text, $pattern);
 
 // include 'algo/BoyerMooreV2.php';
 // BoyerMoore($pattern, strlen($pattern), $text, strlen($text));
